@@ -1,0 +1,6 @@
+{
+  "name": "VoiceMorph",
+  "description": "A clean ONNX voice conversion utility to transform phone audio files using custom .onnx voice models.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

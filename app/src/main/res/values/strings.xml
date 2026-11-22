@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">VoiceMorph</string>
+    <string name="app_tagline">On-device ONNX voice conversion</string>
+
+    <string name="section_audio_label">1. Source Audio</string>
+    <string name="pick_audio_button">Pick Audio File</string>
+    <string name="change_audio_button">Change Audio</string>
+    <string name="audio_empty_hint">Supports WAV, MP3, M4A, AAC, OGG, FLAC</string>
+
+    <string name="section_model_label">2. Voice Model (.onnx)</string>
+    <string name="pick_model_button">Pick .onnx Model</string>
+    <string name="change_model_button">Change Model</string>
+    <string name="model_empty_hint">Select a custom ONNX voice conversion model</string>
+
+    <string name="convert_button">Convert</string>
+    <string name="converting_button">Converting…</string>
+    <string name="clear_selection_cd">Clear selection</string>
+
+    <string name="output_ready_title">Converted Audio Ready</string>
+    <string name="play_preview">Play</string>
+    <string name="pause_preview">Pause</string>
+    <string name="save_wav">Save WAV</string>
+
+    <string name="error_invalid_onnx">Please select a valid .onnx model file.</string>
+    <string name="error_audio_decode">Could not read or decode the selected audio file.</string>
+    <string name="error_save_failed">Could not save the converted WAV file.</string>
+    <string name="saved_wav_success">Converted audio saved.</string>
+
+    <string name="tab_voice_convert">Voice Convert</string>
+    <string name="tab_audio_separation">Audio Separation</string>
+    <string name="section_conversion_heading">Voice Conversion</string>
+    <string name="section_separation_heading">Audio Separation</string>
+    <string name="section_separation_subtitle">Isolate vocals and instrumental music into separate downloadable WAV files</string>
+    <string name="pick_separation_audio_button">Pick Track to Separate</string>
+    <string name="change_separation_audio_button">Change Track</string>
+    <string name="separation_empty_hint">Choose a song or audio file to split into vocals + music</string>
+    <string name="separate_button">Separate Vocals &amp; Music</string>
+    <string name="separating_button">Separating…</string>
+    <string name="separation_ready_title">Stems Ready</string>
+    <string name="vocals_stem_label">Vocals</string>
+    <string name="music_stem_label">Music</string>
+    <string name="download_vocals">Download Vocals</string>
+    <string name="download_music">Download Music</string>
+    <string name="saved_vocals_success">Vocals WAV saved.</string>
+    <string name="saved_music_success">Music WAV saved.</string>
+</resources>
